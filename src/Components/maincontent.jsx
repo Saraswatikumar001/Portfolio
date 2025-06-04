@@ -3,6 +3,7 @@ import React from 'react'
 const maincontent = () => {
     return (
         <>
+            {/* Main Part */}
             <main className=' ps-5 flex items-center justify-center h-[100vh]'>
                 <div className='flex flex-row w-3/4'>
                     <div className='w-1/2 h-full pr-5'>
@@ -22,7 +23,8 @@ const maincontent = () => {
                     </div>
                 </div>
             </main>
-            <section>
+            {/* First Part */}
+            <section className="px-10">
                 <div class="flex flex-wrap items-center justify-center px-5">
                     <div class="w-full md:w-1/4 flex items-center">
                         <p class="mr-4 text-white text-4xl font-semibold">5</p>
@@ -32,29 +34,50 @@ const maincontent = () => {
                         </div>
                     </div>
                     <div class="w-full md:w-1/4 flex items-center">
-                        <p class="mr-4 text-white text-4xl font-semibold">1</p>
+                        <p class="mr-4 text-white text-4xl font-semibold">15+</p>
                         <div className='flex flex-col'>
-                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
-                            <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
-                        </div>
-
-                    </div>
-                    <div class="w-full md:w-1/4 flex items-center">
-                        <p class="mr-4 text-white text-4xl font-semibold">45</p>
-                        <div className='flex flex-col'>
-                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
-                            <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Ready</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Projects</p>
                         </div>
                     </div>
                     <div class="w-full md:w-1/4 flex items-center">
-                        <p class="mr-4 text-white text-4xl font-semibold">45</p>
+                        <p class="mr-4 text-white text-4xl font-semibold">2+</p>
                         <div className='flex flex-col'>
-                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Internship</p>
                             <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4 flex items-center">
+                        <p class="mr-4 text-white text-4xl font-semibold">2k+</p>
+                        <div className='flex flex-col'>
+                            <p class="mr-2 text-white text-2xl font-semibold">Lines of</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Production-Ready code</p>
                         </div>
                     </div>
                 </div>
             </section >
+            {/* Second Part */}
+            <section className="px-10 py-10">
+                <div className="flex flex-col justify-center items-center">
+                    <h2 className="text-white text-3xl text-center font-medium pb-2">My Expertise</h2>
+                    <p className="text-white text-sm">I Am Saraswati Kumar. I am a Fronted Developer. I have 5 years Study Experience. Right Now I am working DIGITYX</p>
+                </div>
+                <!-- 30% progress -->
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                    <div class="bg-blue-500 h-4 rounded-full" style="width: 30%"></div>
+                </div>
+
+                <!-- 50% progress -->
+                <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
+                    <div class="bg-green-500 h-4 rounded-full" style="width: 50%"></div>
+                </div>
+
+                <!-- 90% progress -->
+                <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
+                    <div class="bg-red-500 h-4 rounded-full" style="width: 90%"></div>
+                </div>
+
+            </section>
         </>
 
 
