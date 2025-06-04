@@ -56,23 +56,24 @@ const maincontent = () => {
                     </div>
                 </div>
             </section >
+            
             {/* Second Part */}
             <section className="px-10 py-10">
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-white text-3xl text-center font-medium pb-2">My Expertise</h2>
                     <p className="text-white text-sm">I Am Saraswati Kumar. I am a Fronted Developer. I have 5 years Study Experience. Right Now I am working DIGITYX</p>
                 </div>
-                <!-- 30% progress -->
+                {/* 30% progress */}
                 <div class="w-full bg-gray-200 rounded-full h-4">
                     <div class="bg-blue-500 h-4 rounded-full" style="width: 30%"></div>
                 </div>
 
-                <!-- 50% progress -->
+                {/* 50% progress */}
                 <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
                     <div class="bg-green-500 h-4 rounded-full" style="width: 50%"></div>
                 </div>
 
-                <!-- 90% progress -->
+                {/* 90% progress */}
                 <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
                     <div class="bg-red-500 h-4 rounded-full" style="width: 90%"></div>
                 </div>
