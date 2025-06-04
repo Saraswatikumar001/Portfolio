@@ -1,0 +1,65 @@
+import React from 'react'
+
+const maincontent = () => {
+    return (
+        <>
+            <main className=' ps-5 flex items-center justify-center h-[100vh]'>
+                <div className='flex flex-row w-3/4'>
+                    <div className='w-1/2 h-full pr-5'>
+                        <h3 className='text-white font-bold text-sm pb-1'>I am Saraswati Kumar</h3>
+                        <p className='text-white font-semibold text-5xl pb-3'>Fronted Developer</p>
+                        <p className='text-white font-bold text-sm'>I'm a passionate front-end developer with a keen eye for design and detail. I specialize in creating interactive, accessible, and high-performance web applications. I enjoy turning complex problems into simple, beautiful interfaces.</p>
+                        <div className='flex items-center gap-4 mt-3'>
+                            <button type='button' className='px-4 py-1 text-white bg-[#6d12b7] hover:bg-blue-700 focus:ring-4 focus:to-blue-500 font-medium rounded-lg text-lg dark:bg-blue-700 dark:hover:bg-blue-700 focus:outline-none mt-3'>Follow Me On</button>
+                            <a href="" className='text-4xl text-[#6d12b7] hover:text-blue-600 p-1'><i class="fa-brands fa-facebook"></i></a>
+                            <a href="" className='text-4xl text-[#6d12b7] hover:text-blue-600 p-1'><i class="fa-brands fa-instagram"></i></a>
+                            <a href="" className='text-4xl text-[#6d12b7] hover:text-blue-600 p-1'><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="" className='text-4xl text-[#6d12b7] hover:text-blue-600 p-1'><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div className='w-1/2 flex items-center justify-center'>
+                        <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?uid=R119104888&ga=GA1.1.1106605636.1719834042&semt=ais_hybrid&w=740" alt="image" className='w-48 h-48' />
+                    </div>
+                </div>
+            </main>
+            <section>
+                <div class="flex flex-wrap items-center justify-center px-5">
+                    <div class="w-full md:w-1/4 flex items-center">
+                        <p class="mr-4 text-white text-4xl font-semibold">5</p>
+                        <div className='flex flex-col'>
+                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4 flex items-center">
+                        <p class="mr-4 text-white text-4xl font-semibold">1</p>
+                        <div className='flex flex-col'>
+                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
+                        </div>
+
+                    </div>
+                    <div class="w-full md:w-1/4 flex items-center">
+                        <p class="mr-4 text-white text-4xl font-semibold">45</p>
+                        <div className='flex flex-col'>
+                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4 flex items-center">
+                        <p class="mr-4 text-white text-4xl font-semibold">45</p>
+                        <div className='flex flex-col'>
+                            <p class="mr-2 text-white text-2xl font-semibold">Study</p>
+                            <p class="mr-2 text-white text-2xl font-semibold">Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+        </>
+
+
+
+    )
+}
+
+export default maincontent
